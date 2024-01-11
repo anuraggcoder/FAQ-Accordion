@@ -90,11 +90,19 @@ margin-left: 5px;
 }
 
 @media (width > 375px){
-    body{
-    }
     .background{
         height: 50vh;
         background-image: url('assets/images/background-pattern-desktop.svg');
         background-repeat: repeat-x;
+    }
+    #faq img{
+        width: 2.5rem;
+        height: 2.5rem; 
+    }
+    #faq p{
+        font-size: 3.5rem;
+    }
+    .content-heading{
+        font-size: 1.125rem;
     }
 }
